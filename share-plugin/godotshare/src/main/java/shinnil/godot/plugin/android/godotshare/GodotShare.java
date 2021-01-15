@@ -21,7 +21,7 @@ public class GodotShare extends GodotPlugin {
 
     public GodotShare(Godot godot) {
         super(godot);
-        activity = godot;
+        activity = godot.getActivity();
     }
 
     public void shareText(String title, String subject, String text) {

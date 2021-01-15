@@ -1,4 +1,4 @@
-#!bin/bash
+#!/bin/bash
 
 if [[ ! -e "releases" ]]; then
     mkdir -p "releases"
